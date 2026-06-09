@@ -89,8 +89,8 @@ REGRAS:
     lea rsi, [R7]
     call print_string 
             
-    mov edx, PAK_len
-    lea rsi, [PAK]
+    mov edx, continuar_len
+    lea rsi, [continuar]
     call print_string 
         
     call read_input 
@@ -133,8 +133,8 @@ VICTORY:
     lea rsi, [W2]
     call print_string
                 
-    mov edx, PAK_len
-    lea rsi, [PAK]
+    mov edx, continuar_len
+    lea rsi, [continuar]
     call print_string
             
     call read_input    
@@ -150,8 +150,8 @@ DRAW:
     lea rsi, [DRW]
     call print_string 
                 
-    mov edx, PAK_len
-    lea rsi, [PAK]
+    mov edx, continuar_len
+    lea rsi, [continuar]
     call print_string
             
     call read_input    
